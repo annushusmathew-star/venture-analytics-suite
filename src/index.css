@@ -8,60 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 255 255 255;
-    --foreground: 0 0 0;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
 
-    --card: 255 255 255;
-    --card-foreground: 0 0 0;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
 
-    --popover: 255 255 255;
-    --popover-foreground: 0 0 0;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 0 0 0;
-    --primary-foreground: 255 255 255;
-    --primary-dark: 31 31 31;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 0 0% 12%;
 
-    --secondary: 245 245 245;
-    --secondary-foreground: 0 0 0;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 250 250 250;
-    --muted-foreground: 82 82 82;
+    --muted: 0 0% 98%;
+    --muted-foreground: 0 0% 32%;
 
-    --accent: 0 180 79;
-    --accent-foreground: 255 255 255;
+    --accent: 145 100% 35%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 220 38 38;
-    --destructive-foreground: 255 255 255;
+    --destructive: 0 74% 42%;
+    --destructive-foreground: 0 0% 100%;
 
-    --success: 0 180 79;
-    --success-foreground: 255 255 255;
+    --success: 145 100% 35%;
+    --success-foreground: 0 0% 100%;
 
-    --warning: 245 158 11;
-    --warning-foreground: 255 255 255;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
 
-    --border: 229 229 229;
-    --input: 229 229 229;
-    --ring: 0 0 0;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 0%;
 
     --radius: 0.375rem;
 
     /* Analytics specific tokens - Uber style */
-    --analytics-bg: 255 255 255;
-    --analytics-card: 255 255 255;
-    --analytics-border: 229 229 229;
-    --analytics-text: 82 82 82;
-    --analytics-text-light: 163 163 163;
+    --analytics-bg: 0 0% 100%;
+    --analytics-card: 0 0% 100%;
+    --analytics-border: 0 0% 90%;
+    --analytics-text: 0 0% 32%;
+    --analytics-text-light: 0 0% 64%;
     
     /* Chart colors - Uber inspired palette */
-    --chart-1: 0 0 0;
-    --chart-2: 0 180 79;
-    --chart-3: 82 82 82;
-    --chart-4: 245 158 11;
-    --chart-5: 59 130 246;
+    --chart-1: 0 0% 0%;
+    --chart-2: 145 100% 35%;
+    --chart-3: 0 0% 32%;
+    --chart-4: 38 92% 50%;
+    --chart-5: 217 91% 60%;
     
     /* Gradients - Uber style */
-    --gradient-primary: linear-gradient(135deg, hsl(0 0 0) 0%, hsl(82 82 82) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(255 255 255) 0%, hsl(250 250 250) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(0 0% 32%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
     
     /* Shadows - clean and sharp */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
@@ -70,21 +70,21 @@ All colors MUST be HSL.
 
     --radius: 0.375rem;
 
-    --sidebar-background: 255 255 255;
+    --sidebar-background: 0 0% 100%;
 
-    --sidebar-foreground: 82 82 82;
+    --sidebar-foreground: 0 0% 32%;
 
-    --sidebar-primary: 0 0 0;
+    --sidebar-primary: 0 0% 0%;
 
-    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-primary-foreground: 0 0% 100%;
 
-    --sidebar-accent: 245 245 245;
+    --sidebar-accent: 0 0% 96%;
 
-    --sidebar-accent-foreground: 0 0 0;
+    --sidebar-accent-foreground: 0 0% 0%;
 
-    --sidebar-border: 229 229 229;
+    --sidebar-border: 0 0% 90%;
 
-    --sidebar-ring: 0 180 79;
+    --sidebar-ring: 145 100% 35%;
   }
 
   .dark {
