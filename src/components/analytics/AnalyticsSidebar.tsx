@@ -31,8 +31,8 @@ export function AnalyticsSidebar() {
       <SidebarContent className="bg-analytics-card border-r border-analytics-border">
         <div className="p-6 border-b border-analytics-border">
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <BarChart3 className="h-5 w-5 text-white" />
+            <div className="h-8 w-8 bg-accent rounded-lg flex items-center justify-center">
+              <BarChart3 className="h-5 w-5 text-accent-foreground" />
             </div>
             {!isCollapsed && (
               <div>
